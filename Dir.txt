@@ -1,9 +1,0 @@
-Research institute tu akan ada satu diagram
-
-Then all institute akan link from the diagram
-
-Lepas tu  Academic> Academic Dept
-
-Research>Research Institutes
-
-Academic> Academic Dept> Electrical and Electronic Dept> Aamir Saeed Malik (cth)
