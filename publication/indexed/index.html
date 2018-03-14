@@ -88,25 +88,9 @@
 												
 												
 												
-<style type="text/css">
-	table.tableizer-table {
-		font-size: 12px;
-		border: 1px solid #CCC; 
-		font-family: Arial, Helvetica, sans-serif;
-	} 
-	.tableizer-table td {
-		padding: 4px;
-		margin: 3px;
-		border: 1px solid #CCC;
-	}
-	.tableizer-table th {
-		background-color: #104E8B; 
-		color: #FFF;
-		font-weight: bold;
-	}
-</style>
-<table class="tableizer-table">
-<thead><tr class="tableizer-firstrow"><th>Staff Name</th><th>Department</th><th>Staff Name</th><th>Department </th><th>Staff Name</th><th>Department</th><th>AUTHORS</th><th>DOCUMENT TITLE</th><th>SOURCE TITLE</th><th>QR 2015</th><th>QR 2016</th><th>IF 2015</th><th>IF 2016</th></tr></thead><tbody>
+
+<table id="table_id" class="display">
+<thead><tr><th>Staff Name</th><th>Department</th><th>Staff Name</th><th>Department </th><th>Staff Name</th><th>Department</th><th>Authors</th><th>Document Title</th><th>Source Title</th><th>QR 2015</th><th>QR 2016</th><th>IF 2015</th><th>IF 2016</th></tr></thead><tbody>
  <tr><td>Aamir Hussain Bhat</td><td>Fundamental and Applied Sciences</td><td>Faiz Ahmad</td><td>Mechanical Engineering</td><td> </td><td> </td><td>Dasan Y.K., Bhat A.H., Ahmad F.</td><td>Polymer blend of PLA/PHBV based bionanocomposites reinforced with nanocrystalline cellulose for potential application as packaging material</td><td>Carbohydrate Polymers</td><td>Q1</td><td>Q1</td><td>4.219</td><td>4.811</td></tr>
  <tr><td>Jose Antonio Gamez Vintaned</td><td>Geosciences</td><td>Ahmed Mohamed Ahmed Salim</td><td>Geosciences</td><td>Ibrahima Faye</td><td>Fundamental and Applied Sciences</td><td>Janjuhah H.T., GÁmez Vintaned J.A., Salim A.M.A., Faye I., Shah M.M., Ghosh D.P.</td><td>Microfacies and Depositional Environments of Miocene Isolated Carbonate Platforms from Central Luconia, Offshore Sarawak, Malaysia</td><td>Acta Geologica Sinica</td><td>Q2</td><td>Q3</td><td>1.996</td><td>1.708</td></tr>
  <tr><td> </td><td>&nbsp;</td><td> </td><td> </td><td> </td><td> </td><td>Behjani M.A., Rahmanian N., Fardina bt Abdul Ghani N., Hassanpour A.</td><td>An investigation on process of seeded granulation in a continuous drum granulator using DEM</td><td>Advanced Powder Technology</td><td>Q2</td><td>Q2</td><td>2.478</td><td>2.659</td></tr>
@@ -1002,5 +986,12 @@
         <script src="/js/app.js" type="text/javascript"></script>
         <script src="/js/jquery.dataTables.min.js"></script>
         <script src="/js/dataTables.bootstrap.min.js"></script>
+		<script>
+				$(document).ready( function () {
+				$('#table_id').DataTable();
+			} );
+
+		</script>
+		
     </body>
 </html>
